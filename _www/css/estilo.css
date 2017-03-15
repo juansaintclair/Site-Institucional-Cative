@@ -1,0 +1,608 @@
+/**
+ * @package     Cattive.Site
+ * @subpackage  Templates.cattive
+ *
+ * @copyright   Copyright (C) 2015, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400,700);
+
+
+body {    
+   font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #a5b0b7;
+    line-height: 20px;
+}
+
+body a {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+:hover {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+.cb {
+    clear: both;
+}
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace .pace-progress,
+.pace .pace-inactive {
+  background: #4d90fe;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 2px;
+}
+
+body a:link,
+body a:visited,
+body a:active {
+  color: #4d90fe;
+}
+
+body a:hover {
+  color: #004185;
+  text-decoration: none;
+}
+
+h1 {
+    color: #403e3e;
+  font-size: 28px;
+}
+
+.box-login {
+  margin-top:30px;
+  text-align: right;
+}
+.box-login p {
+  font-size: 10px;
+}
+
+.box-login > div:not(.cb) {
+  margin-top: 5px;
+}
+
+.box-login div:nth-last-of-type(2) {
+  margin-right: 40px;
+}
+
+.box-login div:nth-last-of-type(2) a:link,
+.box-login div:nth-last-of-type(2) a:active,
+.box-login div:nth-last-of-type(2) a:visited,
+.box-login div:nth-last-of-type(2) a:hover {
+  color: #889fae;
+}
+
+.logo {
+  margin-top: 65px;
+}
+
+.btn-proposta {
+  width: 154px;
+  height: 34px;
+  line-height: 30px;
+  border: 2px solid #4d90fe;
+  border-radius: 3px;
+  background-color: #FFF;
+  text-align: center;
+  color: #4d90fe;
+  font-size: 11px;
+  text-transform: uppercase;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.btn-proposta:hover,
+.btn-proposta:focus {
+  background-color: #4d90fe;
+  color: #FFF;
+     -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.mid {
+  margin-top: 230px;
+}
+
+.mid > h1 {
+  margin-bottom: 50px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.mid > p:nth-last-of-type(2) {
+  font-size: 16px;
+  color: #6b6767;
+  line-height: 28px;
+  margin-bottom: 70px;
+}
+
+.mid > p:nth-last-of-type(1) {
+  font-size: 16px;
+  color: #c3c3c3;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.mid button,
+.mid button:active,
+.mid button:visited {
+ 
+  background-color: #4d90fe;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 25px;
+  border: none;
+  border-radius: 5px;
+  -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.mid button:hover {
+   background-color: #8db7fc;
+   -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.vamos-conversar {
+  margin-top: 265px;
+}
+
+.vamos-conversar p {
+  color: #403e3e;
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.formulario-meio {
+  margin-top: 300px;
+}
+
+
+.form-meio {
+  background-color: #fdfdfd;
+  height: 516px;
+  padding-top: 60px;
+}
+
+.bottom {
+  margin-top:300px;
+}
+
+.bottom-msg  p {
+  color: #4d90fe;
+  font-size: 28px;
+    height:70px;
+}
+
+.img-cattive-bottom {
+  display:none;
+    height:70px;
+}
+
+.img-cattive-bottom img {
+    width:150px;
+}
+
+.menu-bottom ul li {
+  display: inline;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.menu-bottom a:link,
+.menu-bottom a:visited,
+.menu-bottom a:active,
+.menu-bottom a:hover {
+  color: #889fae;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+
+.bottom .bottom-msg,
+.bottom .logo-bottom {
+  margin-bottom: 285px;
+  height: 174px;
+}
+
+
+.menu-bottom {
+  margin-bottom: 65px;
+}
+
+.fb-like iframe, 
+.fb-like span {
+  width: 87px!important;
+  height: 20px!important;
+}
+
+.pop-contato-titulo h1 {
+    color: #18343e;
+    font-size: 18px;
+    font-weight: bold;
+    margin:0;
+}
+
+.pop-contato-titulo p {
+    color: #808080;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.pop-contato-group {
+    margin-top: 20px!important;
+}
+
+.pop-contato-mensagem textarea {
+    height: 90px!important;
+}
+
+.align-icon-face {
+    float: left;
+    padding-top: 3px;
+    font-size: 18px;
+}
+
+.toggle-duvidas h2 {
+    cursor: pointer;
+}
+
+.form-group-default textarea:hover,
+.form-group-default textarea:focus {
+    border: none;
+     outline:none;
+     -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    box-shadow:none;
+}
+.close-contato {
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.close-contato i {
+    color: #f7f6f6;
+    cursor: pointer;
+}
+
+.dialog-inner .form-group {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.dialog h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-login,
+.btn-assinar {
+    width: 100%;
+    background-color: #52a6e6;
+    text-align: center;
+    color: #FFF;
+    height: 35px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px!important;
+}
+
+.btn-login:hover,
+.btn-assinar:hover {
+    background-color: #155688;
+    color: #FFF;
+}
+
+.btn-assinar {
+    margin: 0;
+    margin-top:30px;
+}
+
+.btn-facebook {
+    width: 100%;
+    background-color: #3a5795;
+    text-align: center;
+    color: #FFF;
+    margin-top: 30px;
+}
+
+.btn-facebook:hover {
+    color: #FFF;
+    background-color: #283b65;
+}
+
+.checkbox {
+  margin-top: 5px;
+}
+
+.checkbox a:link,
+.checkbox a:visited,
+.checkbox a:active {
+    color: #c5c8cc;
+    font-size: 12px;
+}
+.checkbox a:hover {
+    color: #a7a7a7;
+}
+
+.form-group-senha {
+  margin-bottom: 10px;
+}
+
+.form-group input:hover,
+.form-group input:focus {
+  box-shadow: none;
+} 
+
+.fs-controls nav,
+.fs-numbers {
+  display:none;
+}
+
+button.fs-continue {
+  position: relative!important;
+}
+
+button.fs-submit, button.fs-continue {
+  border:1px solid #e0e0e0;
+  color: #e0e0e0;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 11px;
+  padding: 10px 40px;
+  margin-top: 220px;
+}
+
+.fs-controls {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+button.fs-submit:after,
+button.fs-continue:after {
+  font-size: 11px;
+}
+
+.fs-progress {
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	background: #96b8ef;
+	-webkit-transition: width 0.3s ease-in-out;
+	transition: width 0.3s ease-in-out;
+	z-index: 999;
+	margin-left:0;
+  max-width: 1170px;
+}
+
+
+.fs-progress-grey {
+  position: absolute;
+  border-bottom: 2px solid #e0e0e0;
+  height: 5px;
+  width: 100%;
+  margin-top:175px;
+}
+
+.dialog__content {
+  width: 416px;
+  border:1px solid #f9f9f9;
+}
+
+@media (max-width : 750px) {
+    .vamos-conversar {
+      margin-top: 120px;
+    }
+    .dialog--open .dialog-inner {
+      padding:20px!important;
+    }
+    .dialog__content {
+      border:1px solid #f9f9f9;
+      width: 100%;
+      min-width: 290px;
+      background: #fff;
+      text-align: center;
+      position: absolute;
+      z-index: 99999;
+      opacity: 0;
+        top:0;
+        left: 0;
+    }
+
+    .dialog-inner {
+        width: 100%;
+    }
+    
+    .dialog__overlay {
+      position: absolute;
+      z-index: 1;
+      background: rgba(199, 200, 204, 0.9);
+      opacity: 0;
+      -webkit-transition: opacity 0.3s;
+      transition: opacity 0.3s;
+      -webkit-backface-visibility: hidden;
+    }
+
+  .logo > img {
+    width: 180px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mid {
+    margin-top: 57px;
+  }
+  .mid > h1 {
+    text-align: center;
+    color: #858990;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: normal;
+  }
+  
+  .mid button {
+    font-size: 14px;
+  }
+  
+  .mid > p:nth-last-of-type(1) {
+    font-size: 12px;
+  }
+  
+  .fs-form-wrap {
+    width: auto;
+  }
+  
+  .vamos-conversar .row {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .fs-fields > li label.fs-field-label {
+    font-size: 18px!important;
+  }
+  
+  .fs-controls {
+    text-align: center!important;
+  }
+  
+
+.aproveite,
+.img-cattive-bottom {
+    height: 100px;
+    line-height: 34px;
+}
+  
+  .menu-bottom ul li {
+    display: block;
+  }
+  
+  .blog {
+    padding: 25px 0;
+  }
+  
+  .blog a:link,
+  .blog a:visited,
+  .blog a:active,
+  .blog a:hover {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .fs-message-error {
+    width: 100%;
+    margin-left:0;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .fs-progress {
+    top:-3px;
+    left:0;
+  }
+  
+  .bottom .bottom-msg, .bottom .logo-bottom {
+     margin-bottom: 200px;
+  }
+  
+  
+  
+  .fs-progress-grey {
+   margin-top:172px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+}
+
+.img-cattive-bottom img {
+    width:146px;
+    height: auto;
+    margin-bottom: 40px;
+  }
+
+.obrigado{
+	display: none;
+	margin-top:100px;
+	text-align:center;
+}
+
+
+
+.dialog--open .dialog-inner {
+  padding:40px;
+    padding-top:0;
+}
+
+.fs-fields [required] {
+  background-size: 10px;
+  background-position: 100% 60%;
+}
+
+.fs-fields input {
+  border-bottom:none;
+}
+
+.form-control,
+.form-group-default,
+.form-group input
+  {
+  box-shadow: none;
+}
+
+.fs-continue::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  line-height: 3;
+  text-align: center;
+  background: transparent;
+  color: rgba(0,0,0,0.3);
+  content: 'ou pressione ENTER';
+  font-size: 0.65em;
+  pointer-events: none;
+  text-transform: none;
+}
+
+.container-btn-continue {
+  padding-right:0;
+}
